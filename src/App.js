@@ -1,4 +1,5 @@
 import React from 'react';
+import Home from './components/landing_page/Home';
 
 const App = () => {
   return (
