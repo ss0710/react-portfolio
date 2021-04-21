@@ -1,10 +1,15 @@
 import React from 'react';
-import Home from './components/home/Home';
+import './App.scss';
 
 const App = () => {
   return (
-    <div>
-      <Home />
+    <div className="App">
+      <div className="sideBar">
+        SideBar
+      </div>
+      <div className="mainBody">
+      mainbody
+      </div>
     </div>
   );
 }

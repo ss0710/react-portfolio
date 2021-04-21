@@ -1,0 +1,15 @@
+.App {
+    .sideBar {
+        width: 16%;
+        height: 100vh;
+        background-color: $sideBar-background-color;
+        position: fixed;
+    }
+
+    .mainBody {
+        width: 84%;
+        margin-left: 16%;
+        background-color: $background-color;
+        min-height: 100vh;
+    }
+}
