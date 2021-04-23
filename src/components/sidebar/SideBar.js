@@ -2,8 +2,10 @@ import React from 'react';
 
 const SideBar = () => {
     return(
-        <div>
-            this is SideBar
+        <div className="navBar">
+            <div className="avatar-div">
+                <img src="" alt="" />
+            </div>
         </div>
     );
 }
