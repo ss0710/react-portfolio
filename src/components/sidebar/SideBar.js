@@ -4,12 +4,14 @@ import { NavLink } from 'react-router-dom';
 
 const SideBar = () => {
     return(
-        <div className="navBar">
+        <div className="sideBar">
+            <div className="side">
+
             <div className="avatar-div">
                 <img src={Profile} alt="profile-photo" />
             </div>
-            <div className="side">
-                <div className="sideBar=items">
+
+                <div className="sideBar-items">
                     <li className="items">
                         <NavLink to='/' exact activeClassName="active" >
                             Home
@@ -30,12 +32,14 @@ const SideBar = () => {
                             Contact
                         </NavLink>
                     </li>
-                    <footer className="footer">
-                        <p>
-                            @2021 SudheerSingh
-                        </p>
-                    </footer>
                 </div>
+
+                <footer className="footer">
+                    <p>
+                        @2021 SudheerSingh
+                    </p>
+                </footer>
+
             </div>
         </div>
     );
