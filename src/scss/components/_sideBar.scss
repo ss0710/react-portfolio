@@ -12,11 +12,40 @@
     .avatar-div {
         width: 100%;
         text-align: center;
+        margin-top: 1rem;
+        
 
         img {
             width: 70%;
             border-radius: 100%;
-            border: 5px solid #2e344e;
+            border: 3px solid $light-blue-shade;
         }
     }
+
+    .sideBar-items {
+        width: 100% ;
+        .items {
+            list-style: none;
+            text-align: center;
+            padding: 0.4rem;
+            a {
+                text-decoration: none;
+                color: inherit;
+                display: block;
+            }
+        }
+    }
+
+    .footer {
+        border-bottom: 10px;
+        p{
+            text-align: center;
+            padding: 1rem 0;
+            font-size: 0.8rem;
+        }
+    }
+}
+
+.active {
+    background-color: $light-blue-shade;
 }

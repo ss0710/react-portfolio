@@ -18,17 +18,17 @@ const SideBar = () => {
                         </NavLink>
                     </li>
                     <li className="items">
-                        <NavLink to='/' exact activeClassName="active" >
+                        <NavLink to='/about' exact activeClassName="active" >
                             About
                         </NavLink>
                     </li>
                     <li className="items">
-                        <NavLink to='/' exact activeClassName="active" >
+                        <NavLink to='/projects' exact activeClassName="active" >
                             Projects
                         </NavLink>
                     </li>
                     <li className="items">
-                        <NavLink to='/' exact activeClassName="active" >
+                        <NavLink to='/contact' exact activeClassName="active" >
                             Contact
                         </NavLink>
                     </li>
