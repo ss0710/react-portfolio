@@ -19,23 +19,23 @@ const SideBar = () => {
                     <li className="items">
                         <div className="link-container">
                         <NavLink to='/' exact activeClassName="active" >
-                            <HomeIcon/> Home
+                            <HomeIcon className="Icons" /> Home
                         </NavLink>
                         </div>
                     </li>
                     <li className="items">
                        <NavLink to='/projects' exact activeClassName="active" >
-                           <AssignmentTurnedInIcon /> Projects
+                           <AssignmentTurnedInIcon className="Icons" /> Projects
                         </NavLink>
                     </li>
                     <li className="items">
                         <NavLink to='/about' exact activeClassName="active" >
-                            <AccountBoxIcon /> About
+                            <AccountBoxIcon className="Icons" /> About
                         </NavLink>
                     </li>
                     <li className="items">
                         <NavLink to='/contact' exact activeClassName="active" >
-                            <ContactMailIcon /> Contact
+                            <ContactMailIcon className="Icons" /> Contact
                         </NavLink>
                     </li>
                 </ul>
