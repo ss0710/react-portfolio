@@ -1,5 +1,9 @@
 import React from 'react';
 import Profile from '../../assets/images/profile.jfif';
+import HomeIcon from '@material-ui/icons/Home';
+import AssignmentTurnedInIcon from '@material-ui/icons/AssignmentTurnedIn';
+import AccountBoxIcon from '@material-ui/icons/AccountBox';
+import ContactMailIcon from '@material-ui/icons/ContactMail';
 import { NavLink } from 'react-router-dom';
 
 const SideBar = () => {
@@ -11,28 +15,30 @@ const SideBar = () => {
                 <img src={Profile} alt="profile-photo" />
             </div>
 
-                <div className="sideBar-items">
+                <ul className="sideBar-items">
                     <li className="items">
+                        <div className="link-container">
                         <NavLink to='/' exact activeClassName="active" >
-                            Home
+                            <HomeIcon/> Home
+                        </NavLink>
+                        </div>
+                    </li>
+                    <li className="items">
+                       <NavLink to='/projects' exact activeClassName="active" >
+                           <AssignmentTurnedInIcon /> Projects
                         </NavLink>
                     </li>
                     <li className="items">
                         <NavLink to='/about' exact activeClassName="active" >
-                            About
-                        </NavLink>
-                    </li>
-                    <li className="items">
-                        <NavLink to='/projects' exact activeClassName="active" >
-                            Projects
+                            <AccountBoxIcon /> About
                         </NavLink>
                     </li>
                     <li className="items">
                         <NavLink to='/contact' exact activeClassName="active" >
-                            Contact
+                            <ContactMailIcon /> Contact
                         </NavLink>
                     </li>
-                </div>
+                </ul>
 
                 <footer className="footer">
                     <p>

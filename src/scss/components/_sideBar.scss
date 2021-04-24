@@ -26,12 +26,31 @@
         width: 100% ;
         .items {
             list-style: none;
-            text-align: center;
-            padding: 0.4rem;
+
             a {
                 text-decoration: none;
+                font-size: inherit;
                 color: inherit;
                 display: block;
+                padding: .5rem 0;
+                position: relative;
+                &::before{
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: .4rem;
+                    height: 100%;
+                    background-color: rgba(0, 0, 255, 0.267);
+                    transform-origin: bottom;
+                    transform: scale(0);
+                    overflow-x: hidden;
+                    transition: transform .6s, .2s width .5s cubic-bezier(1,-0.16,.6,1.35);
+                }
+                &:hover::before{
+                    width: 100%;
+                    transform: scale(1);
+                }
             }
         }
     }
