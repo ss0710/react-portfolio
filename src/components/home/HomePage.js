@@ -10,27 +10,13 @@ const HomePage = () => {
                     <p className="content-sub-text">
                         Web Developer And Competetive Pragrammer
                     </p>
-
-                    <section>
-     	                <div class="box2"></div>
-                    </section>
-
-                    <section>
-     	                <div className="container">
-                    <div className="loadingspinner">
-                    <div id="square1"></div>
-                    <div id="square2"></div>
-                    <div id="square3"></div>
-                    <div id="square4"></div>
-                    <div id="square5"></div>
-                    </div>
-                    </div>
-                    </section>
+                </h1>
 
                     <div className="icons">
-                         
+                    <button id="neonShadow"><span>LinkedIn</span></button>
+                    <button id="neonShadow"><span>GitHub</span></button>
+                    <button id="neonShadow"><span>Instagram</span></button>
                     </div>
-                </h1>
             </header>
         </div>
     );
