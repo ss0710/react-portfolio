@@ -1,5 +1,6 @@
 import React from 'react';
 import SideBar from './components/sidebar/SideBar';
+import HomePage from './components/home/HomePage';
 import './App.scss';
 
 const App = () => {
@@ -9,7 +10,7 @@ const App = () => {
         <SideBar />
       </div>
       <div className="mainBody">
-      mainbody
+      <HomePage />
       </div>
     </div>
   );

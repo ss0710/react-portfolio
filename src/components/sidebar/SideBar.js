@@ -12,7 +12,7 @@ const SideBar = () => {
             <div className="side">
 
             <div className="avatar-div">
-                <img src={Profile} alt="profile-photo" />
+                <img src={Profile} alt="profile" />
             </div>
 
                 <ul className="sideBar-items">
