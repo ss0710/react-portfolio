@@ -1,26 +1,51 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import SideBar from './components/sidebar/SideBar';
 import HomePage from './components/home/HomePage';
 import {Route , Switch} from 'react-router-dom';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Projects from './components/projects/Projects';
+import PacmanLoader from "react-spinners/PacmanLoader";
 import './App.scss';
 
 const App = () => {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 8000)
+  }, [])
   return (
     <div className="App">
-      <div className="sideBar">
-        <SideBar />
-      </div>
-      <div className="mainBody">
-      <Switch>
-        <Route exact path="/" component={() => <HomePage/>} />
-        <Route exact path="/About" component={() => <About/> } />
-        <Route exact path="/Projects" component={() => <Projects/> } />
-        <Route exact path="/Contact" component={() => <Contact/> } />
-      </Switch>
-      </div>
+      {
+        loading ? 
+        <div className="animation-div">
+        <PacmanLoader 
+         className="animation"
+         size={150}
+         color={"#3500D3"}
+         loading={loading}
+        />
+        </div>
+
+        :
+
+        <div>
+        <div className="sideBar">
+          <SideBar />
+        </div>
+        <div className="mainBody">
+        <Switch>
+          <Route exact path="/" component={() => <HomePage/>} />
+          <Route exact path="/About" component={() => <About/> } />
+          <Route exact path="/Projects" component={() => <Projects/> } />
+          <Route exact path="/Contact" component={() => <Contact/> } />
+        </Switch>
+        </div>
+        </div>
+      }
     </div>
   );
 }
