@@ -14,9 +14,9 @@ const App = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 6000)
+    }, 8000)
   }, [])
-  
+
   return (
     <div className="App">
       {
