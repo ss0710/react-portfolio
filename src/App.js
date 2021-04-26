@@ -5,7 +5,6 @@ import {Route , Switch} from 'react-router-dom';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Projects from './components/projects/Projects';
-import PacmanLoader from "react-spinners/PacmanLoader";
 import './App.scss';
 
 const App = () => {
@@ -17,6 +16,7 @@ const App = () => {
       setLoading(false);
     }, 6000)
   }, [])
+  
   return (
     <div className="App">
       {
