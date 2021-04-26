@@ -24,7 +24,7 @@ const SideBar = () => {
                         </div>
                     </li>
                     <li className="items">
-                       <NavLink to='/projects' exact activeClassName="active" >
+                       <NavLink to='/Projects' exact activeClassName="active" >
                            <AssignmentTurnedInIcon className="Icons" /> Projects
                         </NavLink>
                     </li>
@@ -34,7 +34,7 @@ const SideBar = () => {
                         </NavLink>
                     </li>
                     <li className="items">
-                        <NavLink to='/contact' exact activeClassName="active" >
+                        <NavLink to='/Contact' exact activeClassName="active" >
                             <ContactMailIcon className="Icons" /> Contact
                         </NavLink>
                     </li>
