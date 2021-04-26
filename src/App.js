@@ -5,6 +5,7 @@ import {Route , Switch} from 'react-router-dom';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Projects from './components/projects/Projects';
+import Animation from './assets/gif/animation.gif';
 import './App.scss';
 
 const App = () => {
@@ -22,7 +23,7 @@ const App = () => {
       {
         loading ? 
         <div className="animation-div">
-        <img src="https://miro.medium.com/max/875/1*i1yv42RrOYhvw7U2MM4qCg.gif" alt="loader"/>
+        <img src={Animation} alt="loader"/>
         </div>
 
         :
