@@ -15,19 +15,14 @@ const App = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 8000)
+    }, 6000)
   }, [])
   return (
     <div className="App">
       {
         loading ? 
         <div className="animation-div">
-        <PacmanLoader 
-         className="animation"
-         size={150}
-         color={"#3500D3"}
-         loading={loading}
-        />
+        <img src="https://miro.medium.com/max/875/1*i1yv42RrOYhvw7U2MM4qCg.gif" alt="loader"/>
         </div>
 
         :
