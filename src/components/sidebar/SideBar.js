@@ -29,7 +29,7 @@ const SideBar = () => {
                         </NavLink>
                     </li>
                     <li className="items">
-                        <NavLink to='/about' exact activeClassName="active" >
+                        <NavLink to='/About' exact activeClassName="active" >
                             <AccountBoxIcon className="Icons" /> About
                         </NavLink>
                     </li>
