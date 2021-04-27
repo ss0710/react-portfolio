@@ -16,14 +16,7 @@ const App = () => {
   return (
     <div className="App">
       {
-        loading ? 
-
-        <Animation />
-
-        :
-
-        <Routes />
-        
+        loading ? <Animation /> : <Routes />
       }
     </div>
   );
