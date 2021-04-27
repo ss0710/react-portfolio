@@ -1,9 +1,10 @@
 import React from 'react';
+import Anim from '../../assets/gif/animation.gif';
 
 const Animation = () => {
     return(
-        <div>
-
+        <div className="animation-div">
+        <img src={Anim} alt="loader"/>
         </div>
     );
 }

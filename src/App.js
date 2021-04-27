@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Animation from './assets/gif/animation.gif';
+import Animation from './components/loading animation/Animation';
 import Routes from './components/routes/Routes';
 import './App.scss';
 
@@ -17,9 +17,8 @@ const App = () => {
     <div className="App">
       {
         loading ? 
-        <div className="animation-div">
-        <img src={Animation} alt="loader"/>
-        </div>
+
+        <Animation />
 
         :
 
