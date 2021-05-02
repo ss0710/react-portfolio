@@ -1,7 +1,42 @@
 .image-div {
     display: flex;
+    margin-top: 4rem;
 
-    span {
-        color: $light-blue-shade;
+    .img {
+        img {
+            width: 100%;
+        }
+    }
+
+    .about-imfo {
+        margin-left: 2rem;
+        h4 {
+            font-size: 2rem;
+        }
+
+        button {
+            margin-top: 20px;   
+            padding: 0.5rem 1rem;
+            background-color: transparent;
+            outline: none;
+            border: none;
+            font-family: inherit;
+            font-size: inherit;
+            border-radius: 20px;
+            border: 3px solid $light-blue-shade;
+            color: $light-blue-shade;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: $dark-blue-shade;
+            color: rgba(255, 255, 255, 0.589);
+            border: 3px solid rgba(255, 255, 255, 0.541);
+        }
+
+        span {
+            color: $light-blue-shade;
+        }
     }
 }
