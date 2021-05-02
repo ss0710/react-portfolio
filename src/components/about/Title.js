@@ -3,7 +3,7 @@ import React from 'react';
 const Title = () =>  {
     return (
         <div className="title">
-            Title 
+            <h3><span>Title</span></h3>
         </div>
     )
 }
