@@ -13,12 +13,14 @@ const Routes = () => {
             <SideBar />
             </div>
             <div className="mainBody">
+            <div className="mainBody-content">
             <Switch>
               <Route exact path="/" component={() => <HomePage/>} />
               <Route exact path="/About" component={() => <About/> } />
               <Route exact path="/Projects" component={() => <Projects/> } />
               <Route exact path="/Contact" component={() => <Contact/> } />
             </Switch>
+            </div>
         </div>
         </div>
     );
