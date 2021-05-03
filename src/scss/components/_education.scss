@@ -1,3 +1,23 @@
 .education-div {
-    margin: 20px 0px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-left: 5px solid $light-blue-shade;
+
+    .education-imfo {
+        
+        margin-left: 4%;
+        .College {
+            p , h4{
+                color: white;
+            }
+        }
+
+        .School {
+            margin-top: 30px;
+
+            p , h4{
+                color: white;
+            }
+        }
+    }
 }
