@@ -5,13 +5,42 @@ height: 500px;
 background-color: $sideBar-background-color;
 border-radius: 10px;
 
+span {
+    color: $light-blue-shade;
+    font-size: 2rem; 
+}
+
+h3 {
+    margin-bottom: 16px;
+}
+
+button {
+    font-size: 1rem;
+    padding: 8px;
+    width: 100px;
+    color: rgba(255, 255, 255, 0.808);
+    background-color: $light-blue-shade;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input , textarea {
+    width: 80%;
+    background-color: transparent;
+    font-size: 1.3rem;
+    color: rgb(240, 230, 230);
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border: none;
+    border-bottom: 2px solid $light-blue-shade;
+}
+
 .form-div {
     width: 50%;
-
-    input {
-        background-color: transparent;
-        font-size: 2rem;
-    }
+    padding-left: 3rem;
+    padding-top: 3rem;
 }
 
 .img-div{

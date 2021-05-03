@@ -1,0 +1,25 @@
+.imfo-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+    .imfo {
+        margin: 20px;
+        text-align: center;
+
+        .icon-div {
+            
+            .icon {
+                font-size: 2.5rem;
+                cursor: pointer;
+            }
+        }
+
+        p {
+            font-size: 0.9rem;
+            color: $lighter-blue-shade;
+            cursor: pointer;
+        }
+    }
+
+}
