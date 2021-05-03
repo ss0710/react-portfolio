@@ -41,19 +41,6 @@ const SideBar = () => {
                 </ul>
 
                 <footer className="footer">
-
-                    <section>
-     	                <div className="container">
-                    <div className="loadingspinner">
-                    <div id="square1"></div>
-                    <div id="square2"></div>
-                    <div id="square3"></div>
-                    <div id="square4"></div>
-                    <div id="square5"></div>
-                    </div>
-                    </div>
-                    </section>
-
                     <p>
                         @2021 SudheerSingh
                     </p>
