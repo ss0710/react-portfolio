@@ -1,0 +1,30 @@
+.form-section {
+display: flex;
+justify-content: space-around;
+height: 500px;
+background-color: $sideBar-background-color;
+border-radius: 10px;
+
+.form-div {
+    width: 50%;
+
+    input {
+        background-color: transparent;
+        font-size: 2rem;
+    }
+}
+
+.img-div{
+    width: 50%;
+    background-image: url('../../assets/images/laptop.PNG');
+    background-position: center;
+    background-size: cover;
+
+    .img-inner-div {
+        height: 100%;
+        width: 100%;
+        background-color: #3500d32c;
+        border-radius: 10px;
+    }
+}
+}
