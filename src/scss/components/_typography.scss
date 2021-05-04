@@ -12,8 +12,19 @@
             color: white;
             text-align: center;
             font-size:  3.5rem;
+
+            @media screen and (max-width: 710px){
+               font-size: 2rem;
+            }
+
             span{
                 color: $lighter-blue-shade;
+            }
+
+            p {
+                @media screen and (max-width: 710px){
+                    font-size: 0.9rem;
+                 }
             }
         }
 
@@ -25,6 +36,7 @@
                   margin-right: 25px;
                   margin-top: 30px;
                   cursor: pointer;
+                  color: white;
               }
             #neonShadow{
                 height:50px;
@@ -35,6 +47,11 @@
                 background-color:rgba(156, 161, 160,0.3);
                 animation: glow 1s infinite ;
                 transition:0.5s;
+
+                @media screen and (max-width: 710px){
+                    height: 30px;
+                    width: 70px;
+                }
               }
               span{
                   display: block;

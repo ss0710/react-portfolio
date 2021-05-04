@@ -1,11 +1,11 @@
 import React from 'react';
-import SudheerSingh from '../../assets/images/sudheerSingh.PNG';
+import SudheerSingh1 from '../../assets/images/sudheerSingh1.png';
 
 const ImageDiv = () => {
     return (
         <div className="image-div">
             <div className="img">
-                <img src={SudheerSingh} alt="about" />
+                <img src={SudheerSingh1} alt="about" />
             </div>
             <div className="about-imfo">
                 <h4>I am <span> Sudheer Singh </span></h4>

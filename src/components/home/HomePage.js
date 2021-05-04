@@ -13,9 +13,9 @@ const HomePage = () => {
                 </h1>
 
                     <div className="icons">
-                    <button id="neonShadow"><span>LinkedIn</span></button>
-                    <button id="neonShadow"><span>GitHub</span></button>
-                    <button id="neonShadow"><span>Instagram</span></button>
+                    <button id="neonShadow">LinkedIn</button>
+                    <button id="neonShadow">GitHub</button>
+                    <button id="neonShadow">Instagram</button>
                     </div>
             </header>
         </div>

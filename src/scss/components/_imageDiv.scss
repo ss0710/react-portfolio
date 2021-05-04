@@ -3,14 +3,33 @@
     margin-top: 2rem;
     margin-bottom: 3.5rem;
 
+    @media screen and (max-width: 1000px){
+        margin-top: 60px;
+        flex-direction: column;
+    }
+
     .img {
+        width: 50%;
+
+        @media screen and (max-width: 1000px){
+            width: 100%;
+        }
+
         img {
             width: 100%;
+            border-radius: 5px;
         }
     }
 
     .about-imfo {
         margin-left: 2rem;
+        width: 50%;
+
+        @media screen and (max-width: 1000px){
+            width: 100%;
+            margin-left: 0rem;
+        }
+
         h4 {
             font-size: 2rem;
             color: white;
@@ -21,24 +40,16 @@
         }
 
         button {
-            margin-top: 20px;   
-            padding: 0.5rem 1rem;
-            background-color: transparent;
-            outline: none;
+            font-size: 1rem;
+            padding: 8px;
+            width: 180px;
+            color: rgba(255, 255, 255, 0.808);
+            background-color: $light-blue-shade;
             border: none;
-            font-family: inherit;
-            font-size: inherit;
-            border-radius: 20px;
-            border: 3px solid $light-blue-shade;
-            color: $light-blue-shade;
-            font-weight: bold;
+            border-radius: 10px;
             cursor: pointer;
-        }
-
-        button:hover {
-            background-color: $dark-blue-shade;
-            color: rgba(255, 255, 255, 0.589);
-            border: 3px solid rgba(255, 255, 255, 0.541);
+            margin-top: 10px;
+            margin-bottom: 20px;
         }
 
         span {
