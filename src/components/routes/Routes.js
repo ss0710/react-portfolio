@@ -17,7 +17,7 @@ const Routes = () => {
     return (
       <div className="App">
         <div className={`sidebar ${navToggle ? 'nav-toggle': ''}`}>
-          <SideBar />
+          <SideBar logThis={navClick}/>
         </div>
         <div className="nav-btn" onClick={navClick}>
           <div className="lines-1"></div>
@@ -27,10 +27,10 @@ const Routes = () => {
         <div className="main-content">
             <div className="content">
               <Switch>
-                <Route exact path="/" component={() => <HomePage/>} />
-                <Route exact path="/About" component={() => <About/> } />
-                <Route exact path="/Projects" component={() => <Projects/> } />
-                <Route exact path="/Contact" component={() => <Contact/> } />
+                <Route exact path="/" component={() => <HomePage />} />
+                <Route exact path="/About" component={() => <About /> } />
+                <Route exact path="/Projects" component={() => <Projects /> } />
+                <Route exact path="/Contact" component={() => <Contact /> } />
               </Switch> 
             </div>
         </div>

@@ -6,7 +6,8 @@ import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
 import { NavLink } from 'react-router-dom';
 
-const SideBar = () => {
+const SideBar = ({ logThis }) => {
+
     return(
         <div className="sideBar">
             <div className="side">
@@ -18,23 +19,23 @@ const SideBar = () => {
                 <ul className="sideBar-items">
                     <li className="items">
                         <div className="link-container">
-                        <NavLink to='/' exact activeClassName="active" >
+                        <NavLink to='/' exact activeClassName="active" onClick={logThis} >
                             <HomeIcon className="Icons" /> Home
                         </NavLink>
                         </div>
                     </li>
                     <li className="items">
-                       <NavLink to='/Projects' exact activeClassName="active" >
+                       <NavLink to='/Projects' exact activeClassName="active"  onClick={logThis} >
                            <AssignmentTurnedInIcon className="Icons" /> Projects
                         </NavLink>
                     </li>
                     <li className="items">
-                        <NavLink to='/About' exact activeClassName="active" >
+                        <NavLink to='/About' exact activeClassName="active" onClick={logThis} >
                             <AccountBoxIcon className="Icons" /> About
                         </NavLink>
                     </li>
                     <li className="items">
-                        <NavLink to='/Contact' exact activeClassName="active" >
+                        <NavLink to='/Contact' exact activeClassName="active" onClick={logThis} >
                             <ContactMailIcon className="Icons" /> Contact
                         </NavLink>
                     </li>
