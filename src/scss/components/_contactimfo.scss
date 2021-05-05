@@ -3,6 +3,10 @@
     justify-content: center;
     margin-top: 40px;
 
+    @media screen and (max-width: 1000px){
+        flex-direction: column;
+      }
+
     .imfo {
         margin: 20px;
         text-align: center;
