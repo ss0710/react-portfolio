@@ -181,9 +181,13 @@
 
 .longfazers {
   position: absolute;
-  width: 85%;
-  height: 85%;
+  width: 75%;
+  height: 90%;
   overflow: hidden;
+
+  @media screen and (max-width: 1000px){
+    width: 90%;
+}
 
   span {
     position: absolute;
