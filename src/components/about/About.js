@@ -9,7 +9,7 @@ import Profile from './Profile';
 
 const About  = () => {
     return(
-        <div>
+        <div data-aos="slide-right" data-aos-duration="2000">
             <Title title={"About Me"} span={"About me"} />
             <ImageDiv />
             <Title title={"Education"} span={"Education"} />
@@ -17,7 +17,7 @@ const About  = () => {
             <Title title={"Position Of Responsibility"} span={"Position Of Responsibility"} />
             <Position />
             <Title title={"My Skills"} span={"My Skills"} />
-            <div className="SkillsContainer">
+            <div className="SkillsContainer" data-aos="fade-in" data-aos-duration="2000">
                 <Skills skill={'c++'} progress={'90%'} width={'90%'} />
                 <Skills skill={'DS and Algo'} progress={'80%'} width={'80%'} />
                 <Skills skill={'HTML'} progress={'80%'} width={'80%'} />
@@ -25,14 +25,14 @@ const About  = () => {
                 <Skills skill={'JavaScript'} progress={'70%'} width={'70%'} />
                 <Skills skill={'React Js'} progress={'70%'} width={'70%'} />   
                 <Skills skill={'Web Design'} progress={'80%'} width={'80%'} />
-                <Skills skill={'UI/Ux Design'} progress={'76%'} width={'76%'} />
+                <Skills skill={'Redux'} progress={'56%'} width={'56%'} />
             </div>
             <Title title={"Achievements"} span={"Achievements"} />
             <Achievements />
             <Title title={"Profiles"} span={"Profiles"} />
             <Profile />
             <Title title={"Funt Fact"} span={"Fun Fact"} />
-            <div className="fun-fact-div">
+            <div className="fun-fact-div" data-aos="fade-in" data-aos-duration="2000">
                 <img src="https://media.giphy.com/media/m6OomwWCojfS8/giphy.gif" alt="min" />
                 <h4>I love watching movies and web series</h4>
             </div>

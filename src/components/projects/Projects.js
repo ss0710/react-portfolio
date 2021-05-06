@@ -8,11 +8,11 @@ import Title from '../about/Title';
 
 const Projects = () => {
     return (
-        <div>
+        <div data-aos="slide-right" data-aos-duration="2000">
         <div style={{marginBottom: "40px"}}>
         <Title title={"Projects"} span={"Projects"} />
         </div>
-        <div className="blog-card">
+        <div className="blog-card" data-aos="fade-in" data-aos-duration="2500">
         <div className="meta">
           <div className="photo" 
           style={{ 
@@ -20,7 +20,7 @@ const Projects = () => {
            backgroundPosition: 'center',
            backgroundSize: 'cover' }}></div>
           <ul className="details">
-            <li className="author"><a href="https://github.com/ss0710/React-Quiz-App">Github Link</a></li>
+            <li className="author"><a href="https://github.com/ss0710/React-Quiz-App" target="_blank" rel="noreferrer">Github Link</a></li>
             <li className="date">Teach Used</li>
             <li className="tags">
               <ul>
@@ -34,19 +34,19 @@ const Projects = () => {
           <h2>A Quizz Application</h2>
           <p>User can attempt various interesting questions and view their result. Concept of React router is used to implement single page application</p>
           <p className="read-more">
-            <a href="https://quizz-react.herokuapp.com/">View Project</a>
+            <a href="https://quizz-react.herokuapp.com/" target="_blank" rel="noreferrer">View Project</a>
           </p>
         </div>
         </div>
 
-        <div className="blog-card alt">
+        <div className="blog-card alt" data-aos="fade-in" data-aos-duration="2500">
         <div className="meta">
           <div className="photo" style={{ 
            background: `url(${GitApi})`,
            backgroundPosition: 'center',
            backgroundSize: 'cover' }}></div>
           <ul className="details">
-            <li className="author"><a href="https://github.com/ss0710/GitApi">Github Link</a></li>
+            <li className="author"><a href="https://github.com/ss0710/GitApi" target="_blank" rel="noreferrer">Github Link</a></li>
             <li className="date">Tech Used</li>
             <li className="tags">
               <ul>
@@ -62,12 +62,12 @@ const Projects = () => {
           <h2>GITimfo is build on React.js (JavaScript Frontend Framework).</h2>
           <p>GITImfo provides github data of users through Github API call. It provides imformation about the repositories, total numbers of repos including clone url and other details</p>
           <p className="read-more">
-            <a href="https://gitapi1.herokuapp.com/">View Project</a>
+            <a href="https://gitapi1.herokuapp.com/" target="_blank" rel="noreferrer">View Project</a>
           </p>
         </div>
       </div>
 
-      <div className="blog-card">
+      <div className="blog-card" data-aos="fade-in" data-aos-duration="2500">
         <div className="meta">
           <div className="photo" 
           style={{ 
@@ -75,7 +75,7 @@ const Projects = () => {
            backgroundPosition: 'center',
            backgroundSize: 'cover' }}></div>
           <ul className="details">
-            <li className="author"><a href="https://github.com/ss0710/dsc">Github Link</a></li>
+            <li className="author"><a href="https://github.com/ss0710/dsc" target="_blank" rel="noreferrer">Github Link</a></li>
             <li className="date">Teach Used</li>
             <li className="tags">
               <ul>
@@ -91,19 +91,19 @@ const Projects = () => {
           <p>It is a single Page web application with navigation without the page refreshing as the user navigates which is implemented through React Router
           .</p>
           <p className="read-more">
-            <a href="https://distracted-shaw-5cdd3c.netlify.app/">View Project</a>
+            <a href="https://distracted-shaw-5cdd3c.netlify.app/" target="_blank" rel="noreferrer">View Project</a>
           </p>
         </div>
         </div>
 
-        <div className="blog-card alt">
+        <div className="blog-card alt" data-aos="fade-in" data-aos-duration="2500">
         <div className="meta">
           <div className="photo" style={{ 
            background: `url(${Insta})`,
            backgroundPosition: 'center',
            backgroundSize: 'cover' }}></div>
           <ul className="details">
-            <li className="author"><a href="https://github.com/ss0710/insta_ui_clone">Github Link</a></li>
+            <li className="author"><a href="https://github.com/ss0710/insta_ui_clone" target="_blank" rel="noreferrer">Github Link</a></li>
             <li className="date">Tech Used</li>
             <li className="tags">
               <ul>
@@ -118,12 +118,12 @@ const Projects = () => {
           <h2>Instafram UI Clone</h2>
           <p>Insta UI build using React.js .The website is fully responsive which rescales itself to preserve the user experience and look and feel across all devices — with no irritating zooming, scrolling or resizing.</p>
           <p className="read-more">
-            <a href="https://c2loneinsta.herokuapp.com/">View Project</a>
+            <a href="https://c2loneinsta.herokuapp.com/" target="_blank" rel="noreferrer">View Project</a>
           </p>
         </div>
       </div>
 
-      <div className="blog-card">
+      <div className="blog-card" data-aos="fade-in" data-aos-duration="2500">
         <div className="meta">
           <div className="photo" 
           style={{ 
@@ -131,7 +131,7 @@ const Projects = () => {
            backgroundPosition: 'center',
            backgroundSize: 'cover' }}></div>
           <ul className="details">
-            <li className="author"><a href="https://github.com/ss0710/ToDo-WithReact">Github Link</a></li>
+            <li className="author"><a href="https://github.com/ss0710/ToDo-WithReact" target="_blank" rel="noreferrer">Github Link</a></li>
             <li className="date">Teach Used</li>
             <li className="tags">
               <ul>
@@ -145,7 +145,7 @@ const Projects = () => {
           <h2>Note Application build using React.js</h2>
           <p>Note Application where one add, delete and mark the tasks as done. The Application is build using React.js</p>
           <p className="read-more">
-            <a href="https://ss0710.github.io/ToDo-WithReact/">View Project</a>
+            <a href="https://ss0710.github.io/ToDo-WithReact/" target="_blank" rel="noreferrer">View Project</a>
           </p>
         </div>
         </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Education = () => {
     return (
-        <div className="education-div">
+        <div className="education-div" data-aos="fade-in" data-aos-duration="2000">
             <div className="education-imfo">
                 <div className="College">
                     <h4><span>AJAY KUMAR GARG ENGINEERING COLLEGE</span></h4>

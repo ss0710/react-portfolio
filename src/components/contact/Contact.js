@@ -4,7 +4,7 @@ import Form from './Form';
 
 const Contact = () => {
     return(
-        <div>
+        <div data-aos="slide-right" data-aos-duration="2000">
             <Form />    
             <ContactImfo />
         </div>

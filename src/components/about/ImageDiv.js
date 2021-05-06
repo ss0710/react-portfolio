@@ -3,7 +3,7 @@ import SudheerSingh1 from '../../assets/images/sudheerSingh1.jpg';
 
 const ImageDiv = () => {
     return (
-        <div className="image-div">
+        <div className="image-div" data-aos="fade-in" data-aos-duration="2000">
             <div className="img">
                 <img src={SudheerSingh1} alt="about" />
             </div>

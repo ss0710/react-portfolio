@@ -2,7 +2,7 @@ import React from 'react'
 
 const Position = () => {
     return (
-        <div className="position-div">
+        <div className="position-div" data-aos="fade-in" data-aos-duration="2000">
             <div className="position-imfo">
                 <div className="position">
                     <h4><span>Developer Student Club AKGEC</span></h4>
