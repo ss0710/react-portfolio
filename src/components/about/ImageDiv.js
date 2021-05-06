@@ -1,5 +1,5 @@
 import React from 'react';
-import SudheerSingh1 from '../../assets/images/sudheerSingh1.png';
+import SudheerSingh1 from '../../assets/images/sudheerSingh1.jpg';
 
 const ImageDiv = () => {
     return (

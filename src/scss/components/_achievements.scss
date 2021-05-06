@@ -1,0 +1,21 @@
+.Achievements-div {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-left: 5px solid $light-blue-shade;
+
+    .Achievements-imfo {
+        margin-left: 4%;
+
+        .points {
+
+            h4 {
+                color: white;
+                margin-bottom: 1rem;
+
+                @media screen and (max-width: 1000px){
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

@@ -3,6 +3,8 @@ import Title from './Title';
 import ImageDiv from './ImageDiv';
 import Skills from './Skills';
 import Education from './Education';
+import Achievements from './Achievements';
+import Position from './Position';
 
 const About  = () => {
     return(
@@ -11,6 +13,8 @@ const About  = () => {
             <ImageDiv />
             <Title title={"Education"} span={"Education"} />
             <Education />
+            <Title title={"Position Of Responsibility"} span={"Position Of Responsibility"} />
+            <Position />
             <Title title={"My Skills"} span={"My Skills"} />
             <div className="SkillsContainer">
                 <Skills skill={'c++'} progress={'90%'} width={'90%'} />
@@ -22,6 +26,8 @@ const About  = () => {
                 <Skills skill={'Web Design'} progress={'80%'} width={'80%'} />
                 <Skills skill={'UI/Ux Design'} progress={'76%'} width={'76%'} />
             </div>
+            <Title title={"Achievements"} span={"Achievements"} />
+            <Achievements />
         </div>
     );
 }
