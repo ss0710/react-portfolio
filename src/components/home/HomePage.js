@@ -12,9 +12,9 @@ const HomePage = () => {
                     </p>
                 </h1>
                     <div className="icons">
-                    <button id="neonShadow">LinkedIn</button>
-                    <button id="neonShadow">GitHub</button>
-                    <button id="neonShadow">Instagram</button>
+                    <a href="https://www.linkedin.com/in/sudheer-singh-6132951a2/" target="_blank" rel="noreferrer"><button id="neonShadow">LinkedIn</button></a>
+                    <a href="https://github.com/ss0710" target="_blank" rel="noreferrer"><button id="neonShadow">GitHub</button></a>
+                    <a href="https://www.instagram.com/mr._mister1007/" target="_blank" rel="noreferrer"><button id="neonShadow">Instagram</button></a>
                     </div>
             </header>
         </div>
