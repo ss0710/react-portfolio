@@ -12,6 +12,13 @@
                 color: white;
                 margin-bottom: 1rem;
 
+                .certificate-links {
+                    color: $lighter-blue-shade;
+                    font-size: 2rem;
+                    padding-top: 5px;
+                    cursor: pointer;
+                }
+
                 @media screen and (max-width: 1000px){
                     font-size: 1rem;
                 }
