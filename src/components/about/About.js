@@ -31,6 +31,11 @@ const About  = () => {
             <Achievements />
             <Title title={"Profiles"} span={"Profiles"} />
             <Profile />
+            <Title title={"Funt Fact"} span={"Fun Fact"} />
+            <div className="fun-fact-div">
+                <img src="https://media.giphy.com/media/m6OomwWCojfS8/giphy.gif" alt="min" />
+                <h4>I love watching movies and web series</h4>
+            </div>
         </div>
     );
 }

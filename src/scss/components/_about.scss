@@ -10,3 +10,21 @@
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+.fun-fact-div {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+
+    img {
+        height: 100px;
+        width: 120px;
+        border-radius: 10px;
+    }
+
+    h4 {
+        color: white;
+        font-size: 1.5rem;
+        padding-left: 10px;
+    }
+}
