@@ -9,7 +9,8 @@ const ImageDiv = () => {
             </div>
             <div className="about-imfo">
                 <h4>I am <span> Sudheer Singh </span></h4>
-                <p>ksjbgk ksajdbi askdvjb j jd kljasdhbv lakdjbvlkj lhdbfldkb lKDJFBLDK LKDJ LKDBFLlkjsd lkajsbfl</p>
+                <p>I was born in 2000. I am persuing BTech from AKGEC (Computer Science and Information Technology). 
+                I’ve mostly worked with C, C++ and Web Development languages such as HTML,CSS and JavaScript Frameworks.I like building new stuff and work with other people.</p>
                 <button>Download Resume</button>
                 <div className="about-details"> 
                     

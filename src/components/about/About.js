@@ -5,6 +5,7 @@ import Skills from './Skills';
 import Education from './Education';
 import Achievements from './Achievements';
 import Position from './Position';
+import Profile from './Profile';
 
 const About  = () => {
     return(
@@ -28,6 +29,8 @@ const About  = () => {
             </div>
             <Title title={"Achievements"} span={"Achievements"} />
             <Achievements />
+            <Title title={"Profiles"} span={"Profiles"} />
+            <Profile />
         </div>
     );
 }
