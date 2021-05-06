@@ -11,7 +11,6 @@ const HomePage = () => {
                         Web Developer And Competetive Pragrammer
                     </p>
                 </h1>
-
                     <div className="icons">
                     <button id="neonShadow">LinkedIn</button>
                     <button id="neonShadow">GitHub</button>
