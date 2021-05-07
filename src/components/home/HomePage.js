@@ -8,7 +8,7 @@ const HomePage = () => {
                     Hi I am 
                     <span> Sudheer Singh</span>
                     <p className="content-sub-text">
-                        Web Developer And Competetive Pragrammer
+                        Web Developer And Competetive Programmer
                     </p>
                 </h1>
                     <div className="icons">
