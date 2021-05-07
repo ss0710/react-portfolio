@@ -12,6 +12,12 @@ const Projects = () => {
         <div style={{marginBottom: "40px"}}>
         <Title title={"Projects"} span={"Projects"} />
         </div>
+
+        <div className="thaughts">
+          <h4>We are what we repeatedly do. Excellence, then, is not an act, but a habit.</h4>
+          <img src="https://media.giphy.com/media/JoPa1aDFEvRecqeFja/giphy.gif" alt="project"/>
+        </div>
+
         <div className="blog-card" data-aos="fade-in" data-aos-duration="2500">
         <div className="meta">
           <div className="photo" 
@@ -148,6 +154,11 @@ const Projects = () => {
             <a href="https://ss0710.github.io/ToDo-WithReact/" target="_blank" rel="noreferrer">View Project</a>
           </p>
         </div>
+        </div>
+
+        <div className="last-div">
+            <h4>more to come...</h4>
+            <img src="https://media.giphy.com/media/USV0ym3bVWQJJmNu3N/giphy.gif" alt="project"/>
         </div>
 
       </div>
