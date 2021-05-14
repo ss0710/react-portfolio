@@ -4,7 +4,7 @@
 Portfolio website build on React.js
 
 ## Build status
-deplaoyed on netlify. Link:- https://sudheersingh.netlify.app
+deplaoyed on netlify.   Link:- https://sudheersingh.netlify.app
  
 ## Tech/framework used
 React.js (JavaScript Frontend Framework)
