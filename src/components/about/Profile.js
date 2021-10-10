@@ -9,6 +9,8 @@ const Profile = () => {
                 <a href="https://codeforces.com/profile/Code07hunt" target="_blank" rel="noreferrer"><button>Codeforces</button></a>
                 <a href="https://leetcode.com/codeHunt07/"><button target="_blank" rel="noreferrer">LeetCode</button></a>
                 <a href="https://github.com/ss0710"  target="_blank" rel="noreferrer"><button>Github</button></a>
+                <a href="https://atcoder.jp/users/SidSingh"  target="_blank" rel="noreferrer"><button>Atcoder</button></a>
+                <a href="https://auth.geeksforgeeks.org/user/sudheer07/practice/"  target="_blank" rel="noreferrer"><button>GFG</button></a>
             </div>
         </div>
     )
